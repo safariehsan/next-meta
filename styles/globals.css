@@ -32,14 +32,15 @@
     #a134c7 100%
   );
 }
-
+.firooz {
+  color: #34acc7;
+}
 .gradient-02 {
   position: absolute;
   width: 200px;
   height: 438px;
   top: 0px;
   right: 0px;
-
   background: #7aebfb;
   filter: blur(190px);
 }
@@ -58,7 +59,6 @@
   height: 800px;
   left: 20%;
   top: 5%;
-
   background: rgba(149, 66, 232, 0.35);
   filter: blur(175px);
   transform: rotate(-114.2deg);

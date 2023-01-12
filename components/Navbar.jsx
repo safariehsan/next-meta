@@ -1,4 +1,5 @@
 "use client";
+
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { navVariants } from "../utils/motion";
@@ -20,6 +21,11 @@ const Navbar = () => (
       <h2 className="font-bold text-[24px] leading-[30px] text-white">
         METAVERSUS
       </h2>
+      <img
+        src="./menu.svg"
+        alt="menu"
+        className="w-[24px] h-[24px] object-contain"
+      />
     </div>
   </motion.nav>
 );
